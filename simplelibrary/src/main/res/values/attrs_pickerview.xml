@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--shape绘制view-->
+    <declare-styleable name="ShapeView">
+        <attr name="touchSolidColor" format="color"/>
+        <attr name="solidColor" format="color"/>
+        <attr name="cornesRadius" format="dimension"/>
+        <attr name="topLeftRadius" format="dimension"/>
+        <attr name="topRightRadius" format="dimension"/>
+        <attr name="bottomLeftRadius" format="dimension"/>
+        <attr name="bottomRightRadius" format="dimension"/>
+        <attr name="stroke_Width" format="dimension"/>
+        <attr name="stroke_Color" format="color"/>
+        <attr name="strokeDashWidth" format="dimension"/>
+        <attr name="strokeDashGap" format="dimension"/>
+        <attr name="touchTextColor" format="color"></attr>
+        <attr name="enableColor" format="color"></attr>
+        <attr name="enableTextColor" format="color"></attr>
+        <attr name="shapeType">
+            <enum name="LINEAR_GRADIENT" value="0"/>
+            <enum name="OVAL" value="1"/>
+            <enum name="LINE" value="2"/>
+            <enum name="RING" value="3"/>
+        </attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="PickerView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="highlightTextSize" format="dimension"/>
+        <attr name="highlightTextColor" format="color"/>
+
+        <attr name="itemHeight" format="dimension"/>
+        <attr name="centerClipHeight" format="dimension"/>
+
+        <attr name="cycle" format="boolean"/>
+
+        <attr name="drawCount" format="integer"/>
+        <attr name="tiltDegree" format="float"/>
+
+        <attr name="labelText" format="string"/>
+        <attr name="labelMarginLeft" format="dimension"/>
+        <attr name="labelMarginPinned" format="boolean"/>
+        <attr name="labelTextSize" format="dimension"/>
+        <attr name="labelTextColor" format="color"/>
+
+        <attr name="dividerDrawable" format="reference"/>
+        <attr name="shadowDrawable" format="reference"/>
+        <attr name="centerClipDrawable" format="reference"/>
+
+        <attr name="iconMarginLeft" format="dimension"/>
+    </declare-styleable>
+</resources>

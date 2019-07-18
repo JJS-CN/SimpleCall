@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <!-- 使用 API Level 22 編譯的話，要拿掉前綴字 -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!---->
+    <style name="TransitionTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置activity的背景色为透明色-->
+        <item name="android:windowBackground">@color/Transparent</item>
+        <!--打开透明，否则显示黑色 但是会极大的增加内存消耗。window不会被回收-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="PermissionFailTheme" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无 -->
+    </style>
+
+</resources>
